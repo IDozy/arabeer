@@ -9,9 +9,9 @@ const CounterElement = () => {
   // Definir un arreglo de datos para los contadores
   const countersData = [
     { title: "MÁS DE", end: 12, description: "Años de experiecia" },
-    { title: "MÁS DE", end: 250, description: "Proyectos realizados" },
-    { title: "MÁS DE", end: 1000, description: "Clientes satisfechos" },
-    { title: "MÁS DE", end: 50, description: "Empresas que nos prefieren" },
+    { title: "MÁS DE", end: 8, description: "Variedades de Cerveza" },
+    { title: "MÁS DE", end: 1000, description: "Clientes que nos prefieren" },
+    { title: "MÁS DE", end: 28, description: "Locales de distribución " },
   ];
 
   const formatNumber = (value) => {

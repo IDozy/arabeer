@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path'; // Importa la librería 'path'
+import path from 'path'; 
 
 export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '/@': path.resolve(__dirname, 'src/'), // Define tu baseUrl aquí
+      '/@': path.resolve(__dirname, 'src/'), 
     },
   },
 });

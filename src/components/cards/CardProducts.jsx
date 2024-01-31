@@ -6,7 +6,7 @@ import modelo from "/@/assets/images/variedades.jpeg";
 import variedades from "/@/assets/images/variedades2.jpeg";
 import proceso from "/@/assets/images/proceso.jpeg";
 
-const CardService = () => {
+const CardProducts = () => {
   const cardValues = [
     {
       img: eventos,
@@ -29,6 +29,27 @@ const CardService = () => {
       title: "Tecnologia",
       texto: "Nuestro laboratorio de alta tecnología",
     },
+    {
+        img: eventos,
+        title: "Eventos",
+        texto: "Siempre presentes en los principales eventos de Cajamarca",
+      },
+      {
+        img: modelo,
+        title: "Calidad",
+        texto: "Siempre certificandonos para llevar la mejor calidad",
+      },
+  
+      {
+        img: variedades,
+        title: "Variedad",
+        texto: "Disponemos de 8 variedades de cerveza",
+      },
+      {
+        img: proceso,
+        title: "Tecnologia",
+        texto: "Nuestro laboratorio de alta tecnología",
+      },
   ];
 
   const RenderCard = ({ card }) => {
@@ -46,7 +67,7 @@ const CardService = () => {
   };
 
   return (
-    <div className="container-service">
+    <div className="container-service" style={{marginTop:"5rem"}}>
       <div className="title-service">
         <p></p>
       </div>
@@ -59,4 +80,4 @@ const CardService = () => {
   );
 };
 
-export default CardService;
+export default CardProducts;

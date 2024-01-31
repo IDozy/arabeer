@@ -4,6 +4,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Home from '/@/pages/Home';
 import About from '/@/pages/About';
+import Productos from "/@/pages/Productos"
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 
 function App() {
@@ -14,7 +18,7 @@ function App() {
     <Routes>
        <Route path="/*" element={<Home />} />
        <Route path="/about" element={<About />} />
-       <Route path="/nosotros" element={<Home />} />
+       <Route path="/productos" element={<Productos />} />
        </Routes>
    </BrowserRouter>
   )

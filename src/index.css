@@ -12,6 +12,30 @@
 }
 
 
+@font-face {
+  font-family: "OldeEnglish";
+  src: url("../src/assets/fonts/OldeEnglish.otf") format("woff2"),
+    url("../src/assets/fonts/OldeEnglish.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Cardinal";
+  src: url("../src/assets/fonts/cardinal.otf") format("woff2"),
+    url("../src/assets/fonts/Cardinal.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "cherneue";
+  src: url("../src/assets/fonts/lt_afficher_neue/LTAfficherNeue-ext.otf") format("woff2"),
+    url("../src/fonts/lt_afficher_neue/LTAfficherNeue-ext.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -32,6 +56,9 @@ code {
   box-sizing: border-box;
 }
 
-body{
- /* background-color: #ffc600;*/
+
+
+.container-card-text .title h2{
+  font-family:"OldeEnglish" ;
+  font-size: 80px;
 }

@@ -4,8 +4,7 @@
   display: flex;
   margin:2rem;
   padding: 25px;
-  border: solid 1px red;
-
+  
   
 }
 .container-card-image {
@@ -34,6 +33,21 @@
   text-align: justify;
 }
 
+
+.container-card-text .title{
+  letter-spacing: 5px;
+}
+
+.container-card-text .subtitle{
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.container-card-text .text{
+  margin-top: 1rem;
+  font-size: 22px;
+  font-family:"cherneue" ;
+}
 
 @media (max-width: 1450px) {
   .container-card-image, .container-card-text {

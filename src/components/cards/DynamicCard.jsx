@@ -1,18 +1,27 @@
 import React from "react";
 import "./DynamicCard.css";
+import { motion } from "framer-motion";
 
-const DynamicCard = ({ image, text, isImageOnRight }) => {
+const DynamicCard = ({ title1, title2, image, text, isImageOnRight }) => {
   const flexDirection = isImageOnRight ? "row" : "row-reverse";
 
   const descrition = () => (
     <div className="container-card-text">
-      <div className="title">
-        <h2>titulo1</h2>
+      <div data-aos="fade-down" data-aos-duration="1000" className="title">
+        <h2>{title1}</h2>
       </div>
-      <div className="sutitle">
-        <h2>titulo2</h2>
+      <div data-aos="fade-right" data-aos-duration="1000" className="subtitle">
+        <h2>{title2}</h2>
       </div>
-      <div className="text">
+      <div
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        /*
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1, delay: 1.5 }}*/
+        className="text"
+      >
         <p>{text}</p>
       </div>
     </div>

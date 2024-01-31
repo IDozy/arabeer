@@ -1,27 +1,26 @@
 import React from "react";
 import NavBar from "../components/navbar/NavBar";
 
-
 import Footer from "../components/footer/Footer";
 
 import WhatsAppButton from "/@/components/whatsappbutton/WhatsAppButton";
 
 import imagen from "../assets/images/ARABER.jpeg";
+import CardProducts from "../components/cards/CardProducts";
 
-const Home = () => {
+const Productos = () => {
   return (
     <>
       <NavBar />
-     
+      <CardProducts  />
       <Footer />
       <WhatsAppButton
-        imageCompany= {imagen}
+        imageCompany={imagen}
         number={"+51913896556"}
-        companyName ={'Arabeer'}
+        companyName={"Arabeer"}
       />
-    
     </>
   );
 };
 
-export default Home;
+export default Productos;

@@ -6,6 +6,7 @@
   overflow: hidden;
   line-height: 0;
   height: auto;
+  
  
 }
 
@@ -27,7 +28,7 @@
 }
 
 footer {
-  background: #001b35;
+  background: #c29859;
 }
 
 .sb__footer {
@@ -52,7 +53,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  color: var(--colorText);
+  
 }
 
 .sb__footer-links-div > a {
@@ -79,6 +80,7 @@ footer {
   font-size: 22px;
   line-height: 17px;
   margin-bottom: 0.9rem;
+ 
 }
 
 .sb__footer-links-div p {
