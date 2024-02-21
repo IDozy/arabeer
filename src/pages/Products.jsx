@@ -8,7 +8,7 @@ import WhatsAppButton from "/@/components/whatsappbutton/WhatsAppButton";
 import imagen from "../assets/images/ARABER.jpeg";
 import CardProducts from "../components/cards/CardProducts";
 
-const Productos = () => {
+const Products = () => {
   return (
     <>
       <NavBar />
@@ -23,4 +23,4 @@ const Productos = () => {
   );
 };
 
-export default Productos;
+export default Products;

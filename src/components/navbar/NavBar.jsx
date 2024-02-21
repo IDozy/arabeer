@@ -26,7 +26,7 @@ const NavBar = () => {
             style={{ display: "flex", textDecoration: "none" }}
           >
             <motion.div
-            style={{display:"flex"}}
+              style={{ display: "flex" }}
               initial={{ x: -1000 }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
@@ -64,7 +64,7 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/productos" className="active" onClick={closeNav}>
+                <Link to="/products" className="active" onClick={closeNav}>
                   Productos
                 </Link>
               </li>

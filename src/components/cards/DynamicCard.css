@@ -3,7 +3,8 @@
   box-sizing: border-box;
   display: flex;
   margin:2rem;
-  padding: 25px;
+  padding: 3rem;
+ 
   
   
 }
@@ -11,13 +12,25 @@
   flex: 2;
   text-align: center;
   overflow: hidden;
-  margin: 3rem 7rem;
+  /*margin: 3rem 7rem;*/
  
 }
 
+.right{
+  border-right: 6px solid red;
+  padding-right: 20px;
+}
+.left{
+  border-left: 6px solid red;
+  padding-left: 20px;
+}
 
 .container-card-image img{
   height: 38rem;
+}
+.imgabout img{
+  height: 21rem;
+
 }
 
 .container-card-text {
@@ -26,7 +39,7 @@
   max-width: none;
   border-radius: 10px;
   padding: 20px;
-  margin: 2rem 2rem 0 11rem;
+  /*margin: 2rem 2rem 0 11rem;*/
   height: 60vh;
   width: auto;
   height: auto;
@@ -60,6 +73,8 @@
   .container-card {
     flex-direction: column; 
     align-items: center;
+    padding: 0;
+    margin: 1rem;
   }
 
   .container-card-image{
